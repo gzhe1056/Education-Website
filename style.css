@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), url('images/university_background.jpg');
+    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), 
+    url('images/university_background.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -86,6 +87,7 @@ nav img {
     text-decoration: none;
     color: white;
     border: 1px solid white;
+    border-radius: 2px;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -97,7 +99,7 @@ nav img {
 .hero-btn:hover {
     color: white;
     background: rgba(226, 102, 0);
-    border: rgba(226, 102, 0);
+    border:1px solid rgba(226, 102, 0);
     transition: .3s;
 }
 
@@ -210,16 +212,17 @@ h3 {
 
 .campus-col img {
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.178);
     display: block;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .layer {
     background: transparent;
     border-radius: 10px;
-    height: 80%;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -228,7 +231,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(226, 102, 0, 0.7);
+    background: #2451b188;
     transition: .25s;
 }
 
@@ -333,7 +336,8 @@ h3 {
 .action {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), url('images/banner.jpg');
+    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), 
+    url('images/banner.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -344,6 +348,7 @@ h3 {
 .action h1 {
     color: white;
     margin-bottom: 40px;
+    margin: 10% 0%;
     padding: 0;
 }
 
@@ -490,6 +495,7 @@ h3 {
     outline: none;
     background: #f0f0f0;
     border-radius: 5px;
+    resize: none;
 }
 
 .comment-form button {
